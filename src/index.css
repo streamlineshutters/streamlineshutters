@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-[#FCFCFC] text-gray-900;
+  }
+}
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.highlight-text::after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  bottom: 0;
+  height: 40%;
+  background-color: #ADE9BC;
+  z-index: -1;
+  transform: skew(-12deg);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
