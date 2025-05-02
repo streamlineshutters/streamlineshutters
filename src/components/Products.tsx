@@ -48,7 +48,7 @@ const Products: React.FC = () => {
     },
     {
       title: "Element 13 Aluminium",
-      subtitle: "A Combination of Strength & Lightweight Aluminium",
+      subtitle: "A Combination of Strength & Lightweight Aluminium.",
       imageUrl: "/images/Element13.jpg",
       features: [
         "Spans up to 1500mm wide",
@@ -59,7 +59,7 @@ const Products: React.FC = () => {
     },
     {
       title: "Sovereign Basswood",
-      subtitle: "A-Grade American Basswood",
+      subtitle: "A-Grade American Basswood.",
       imageUrl: "/images/Basswood.jpg",
       features: [
         "Louvres in 64mm, 89mm, and 114mm sizes",
